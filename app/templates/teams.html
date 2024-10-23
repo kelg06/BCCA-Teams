@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="team">{{ name }}</h1>
+<p class="desc">{{ desc }}</p>
+<h3>Members:</h3>
+<ul>
+    {% for i in memb  %}
+       <li>{{i}}</li>
+        {% endfor %}
+</ul>
+{% endblock content %}
+ 

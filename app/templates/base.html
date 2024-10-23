@@ -1,0 +1,14 @@
+{% load static%}
+<DOCTYPE html>
+<head>
+    <title>Team Viewer</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+
+<body>
+    <h1 class="main-title">Markel's Team Viewer</h1>
+    <a class="teams-link" href="{% url "root" %}">Teams</a>
+    {% block content %}
+    
+    {% endblock content %}
+</body>

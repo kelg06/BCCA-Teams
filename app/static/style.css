@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(192, 130, 140);
+    color: rgb(88, 18, 152);
+}
+.team{
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+.desc{
+    font-size: 22px;
+}
+h3{
+    margin-bottom: -10px;
+    font-size:27px ;
+}
+li{
+    font-size: 22px;
+}
+
+.main-title {
+    color: rgb(48, 176, 218);
+    text-align: center;
+    font-size: 60pt;
+}
+
+.teams-link :link{
+    color: white; 
+    text-decoration: underline;
+}
+
+.teams-link :hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.teams-link :visited {
+    color: white;
+    text-decoration: underline;
+}
+.h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.teams-link{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 60pt;
+    margin-bottom: 2%;
+}
